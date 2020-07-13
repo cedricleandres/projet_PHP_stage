@@ -1,0 +1,41 @@
+
+<!-- ----- début fragmentMenu -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router1.php?action=Accueil">ACCUEIL</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">ENREGISTRER DES MODULES <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                   <li><a href="router1.php?action=moduleCreate">Insertion d'un module</a></li>                       
+        </ul>
+      </li>   
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">VISUALISATION <span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="router1.php?action=moduleReadAll">Liste des modules</a></li>
+          <li><a href="router1.php?action=moduleReadId">Sélection d'un module par son numero</a></li>
+        </ul>
+      </li>  
+      
+       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">DOCUMENTATION <span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="readme.txt">README</a></li> 
+        </ul>
+      </li>  
+      
+      
+      
+    </ul>
+  </div>
+</nav>
+
+<!-- ----- fin fragmentMenu -->
+
